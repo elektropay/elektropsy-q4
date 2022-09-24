@@ -1,39 +1,17 @@
 {
-  "name": "elektropsy-q4",
+  "name": "nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@edx/frontend-component-cookie-policy-banner": "^2.2.0",
-    "bootstrap": "^5.2.1",
-    "jquery": "^3.6.1",
-    "next": "^12.3.1",
-    "number-counter": "^1.0.3",
+    "next": "12.3.1",
     "react": "18.2.0",
-    "react-countdown-now": "^2.1.2",
-    "react-countup": "^6.3.1",
-    "react-datepicker": "^4.8.0",
-    "react-dom": "18.2.0",
-    "react-flex-carousel": "^1.1.0",
-    "react-image-lightbox": "^5.1.4",
-    "react-iubenda-policy": "^0.1.1",
-    "react-modal-video": "^1.2.10",
-    "react-owl-carousel": "^2.3.1",
-    "react-responsive-carousel": "^3.2.23",
-    "react-router-dom": "^6.4.0",
-    "react-slick": "^0.29.0",
-    "react-star-ratings": "^2.3.0",
-    "react-typist": "^2.0.5",
-    "reactstrap": "^8.0.1",
-    "sass": "^1.54.9",
-    "slick-carousel": "^1.8.1",
-    "swiper": "^8.4.2"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "eslint": "8.23.1",
