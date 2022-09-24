@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"../components/Shared/reviews-slider.js -> react-owl-carousel":{"id":"../components/Shared/reviews-slider.js -> react-owl-carousel","files":["static/chunks/node_modules_react-owl-carousel_umd_OwlCarousel_js.js"]}}
