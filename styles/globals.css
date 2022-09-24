@@ -1,0 +1,96 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* 
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */
+
+label {
+  margin-bottom: 0.5rem;
+}
+.mobile-payments{
+  background: url(../images/modern01.jpg) center center;
+}
+.custom-control {
+  position: relative;
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.5rem;
+}
+.custom-control-input {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  width: 1rem;
+  height: 1.25rem;
+  opacity: 0;
+}
+.custom-control-label {
+  position: relative;
+  margin-bottom: 0;
+  vertical-align: top;
+}
+.custom-control-label:after, .custom-control-label:before {
+  position: absolute;
+  top: 0.25rem;
+  left: -1.5rem;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  content: "";
+}
+
+.custom-checkbox .custom-control-label:before {
+  border-radius: 0.25rem;
+}
+.custom-control-label:after, .custom-control-label:before {
+  top: 2px;
+}
+.custom-control-label:before, .custom-file-label, .custom-select {
+  transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+label:before {
+  pointer-events: none;
+  background-color: #fff;
+  border: 1px solid #adb5bd;
+}
+
+.testi-users {
+  width: 65px !important;
+  height: 65px !important;
+  border-radius: 16px !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .saas-feature-shape-right:after {
+    content:none;
+  }
+  .saas-feature-shape-left:after {
+    content:none;
+  }
+  .bg-home, .bg-half-170, .bg-half-260, .main-slider .slides .bg-slider, .bg-marketing {
+    padding: 70px 0;
+    height: auto;
+}
+}
