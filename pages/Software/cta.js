@@ -6,7 +6,6 @@ import CountUp from 'react-countup';
 
 // Modal Video 
 import ModalVideo from 'react-modal-video'
-import '../../../node_modules/react-modal-video/scss/modal-video.scss';
 
 class CTA extends Component {
     constructor(props) {

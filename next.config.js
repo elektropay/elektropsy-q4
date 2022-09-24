@@ -2,6 +2,7 @@
 const webpack = require("webpack");
 const nextConfig = {
   reactStrictMode: true,
+  distDir: 'build',
   swcMinify: true,
   trailingSlash: true,
   webpack: (config, { buildId, dev, isServer, defaultLoaders, nextRuntime, webpack }) => {
